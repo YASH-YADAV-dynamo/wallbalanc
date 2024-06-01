@@ -1,0 +1,35 @@
+{
+  "name": "wallbalanc",
+  "version": "1.0.0",
+  "description": "This will add button to your react project to connect phatom or metamask whichever wallet you want to check balance ,wallet id and connect to thier main transcation page",
+  "main": "wallet.js",
+  "scripts": {
+    "postinstall": "node wallet.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wallet",
+    "ethereum",
+    "javascipt",
+    "react"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YASH-YADAV-dynamo/wallbalanc.git"
+  },
+  "author": "YASH-YADAV-dynamo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YASH-YADAV-dynamo/wallbalanc/issues"
+  },
+  "homepage": "https://github.com/YASH-YADAV-dynamo/wallbalanc#readme",
+  "devDependencies": {
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
